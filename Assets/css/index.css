@@ -1,0 +1,16 @@
+.navbar {
+  background-color: #ffffff;
+}
+
+body {
+  background: url('/Assets/images/textured_paper.png');
+  color: #777777;
+}
+
+.brand {
+  color: #ffffff;
+}
+
+.nav-border {
+  border-bottom: solid 4px #cccccc;
+}
