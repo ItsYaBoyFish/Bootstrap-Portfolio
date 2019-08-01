@@ -4,6 +4,7 @@ body {
 /* Index Page ----------------------------------------------------------- */
 .navbar {
   background-color: #95adbe !important;
+  height: 40px;
 }
 
 .navbar-nav {
@@ -87,15 +88,71 @@ form {
 
 
 /* Projects Page -------------------------------------------------------------------- */
+.projects-jumbotron {
+  height: 100px !important;
+}
 
+.projects-jumbotron h1 {
+  padding-top: .3em;
+}
 
+.project-listing {
+  width: 50%;
+  text-align: left;
+  height: 200px !important;
+  border: 2px solid #95adbe;
+  margin: 2em auto;
+  background-color: #fff; 
+}
 
+.project-header {
+  margin-top: .2em; 
+  font-size: 24px;
+  text-align: left;
+  margin-bottom: .1em;
+}
 
+.project-listing hr {
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+  height: 1px;
+  border: none;
+  background-color: #95adbe;
+}
 
+.project-description {
+  font-size: 18px;
+  margin-top: .5em;
+  margin-bottom: 0;
+}
+
+.project-listing p {
+  font-size: 14px;
+  margin-top: .5em;
+}
+
+/* Media Queries -------------------------------------------------------------------- */
 @media screen and (max-width: 1200px) {
   form {
     margin: 0;
   }
+
+  .project-listing {
+    overflow: auto;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .project-listing {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .project-listing {
+    width: 85%;
+  };
 }
 
 @media screen and (max-width: 420px) {
