@@ -1,0 +1,60 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  background-color: #95adbe !important;
+}
+
+.navbar-nav {
+  margin-right: 6em;
+}
+
+.navbar-brand {
+  margin-left: 1em;
+}
+
+.nav-right {
+  font-size: 14px;
+  margin-left: 1em;
+}
+
+.jumbotron {
+  height: 310px !important;
+  background-color: #dff0ea;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 0;
+  border-bottom: 2px solid #95adbe;
+}
+
+.page-header img {
+  margin-top: 2em !important;
+}
+
+.jumbotron-description {
+  font-family: 'Lora', serif;
+}
+
+.content-header {
+  font-size: 24px;
+  text-align: center;
+}
+
+.main-content {
+  width: 70% !important;
+}
+
+.main-content h1 {
+  text-align: left;
+}
+
+.main-content p {
+  line-height: 1.6;
+  letter-spacing: 1.6;
+}
+
+.main-content hr {
+  background-color: #95adbe;
+}
+
