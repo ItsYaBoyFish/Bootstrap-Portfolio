@@ -1,7 +1,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
-
+/* Index Page ----------------------------------------------------------- */
 .navbar {
   background-color: #95adbe !important;
 }
@@ -58,3 +58,56 @@ body {
   background-color: #95adbe;
 }
 
+/* Contact Page --------------------------------------------------------------------- */
+.form-input {
+  margin-top: 2em;
+  width: 75%;
+ }
+
+form {
+  margin-right: 3em;
+  margin-left: 3em;
+}
+
+.button {
+  text-align: center;
+}
+
+.button button {
+  border: none;
+  color: #ffffff;
+  background-color: green;
+  width: 30%;
+}
+
+
+
+
+
+
+
+/* Projects Page -------------------------------------------------------------------- */
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+  form {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 420px) {
+
+  .form-input {
+    width: 95%;
+  }
+
+  .form-input button {
+    width: 100%;
+    background-color: green;
+    color: #ffffff;
+    border: none;
+  }
+}
